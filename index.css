@@ -149,6 +149,12 @@ h1 {
   padding: 0.8rem;
 }
 
+.share-btn {
+    width: 2rem;
+    padding-left: 0.4rem;
+}
+
+
 .btn-icon {
   background-color: var(--clr-neutral-light-grayish-blue);
   color: var(--clr-primary-dark-grayish-blue);
