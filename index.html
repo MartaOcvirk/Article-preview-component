@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+
+    <script defer src="script.js"></script>
+
+    <title>Article preview component</title>
+
+  </head>
+
+  <body>
+    <header></header>
+
+    <main>
+      <div class="card">
+        <img
+          class="hero-img"
+          src="images/drawers.jpg"
+          alt="green side table with two pictures and a brass vase with wheat flowers."
+        />
+        <div class="content">
+          <div class="description">
+            <h1>
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <div class="author flex">
+            <div class="inline-flex">
+              <img
+                class="profile-pic"
+                src="images/avatar-michelle.jpg"
+                alt="profile picture"
+              />
+              <div class="author-name">
+                <h2>Michelle Appleton</h2>
+                <p>28 Jun 2020</p>
+              </div>
+            </div>
+
+            <button
+              class="btn-icon"
+              id="share-button"
+              type="button"
+              data-visible="true"
+            >
+              <i class="fa fa-share"></i
+              ><span class="no-show" aria-label="hidden">Share</span>
+            </button>
+
+            <div
+              class="share-option no-show"
+              id="share-links"
+              data-visible="false"
+            >
+              <span>SHARE</span>
+              <div class="arrow no-show"></div>
+              <a href="https://www.facebook.com/login/"><img src="images/icon-facebook.svg" alt="" /></a>
+              <a href="https://x.com/"><img src="images/icon-twitter.svg" alt="" /></a>
+              <a href="https://www.pinterest.com/login/"><img src="images/icon-pinterest.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
